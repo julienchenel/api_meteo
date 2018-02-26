@@ -10,14 +10,30 @@
 </head>
 
 <body>
-    <h1>Pamiers</h1>
+
+
+<div id="positionForm" class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s3">
+          <input placeholder="Entrer une ville" id="city" type="text" class="validate">
+        </div>
+     </div>
+     <a class="waves-effect waves-light btn">Valider</a>
+     <div id="date"></div>
+    </form>
+</div>
+
+
     <ul id="meteo">
     </ul>
     <!--Import jQuery before materialize.js-->
     <!--<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
-    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/moment.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
-</body>
 
+
+</body>
 </html>
