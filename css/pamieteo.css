@@ -1,0 +1,46 @@
+
+/*Importation de la police Roboto de Goiogle Font*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+	background-color: #00796B;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+/*Style du bouton valider*/
+
+.waves-effect {
+	border-radius: 20px;
+	color: #00796B;
+	background-color: white;
+}
+
+/*Positionnement du formulaire, bouton et date*/
+#positionForm {
+/*   position:absolute;
+   top:10%;
+   left:50%;
+   right: 50%;
+   height:100%;
+   width: 100%;*/
+    display: flex;
+    justify-content: center;
+
+}
+
+#city {
+	font-size: 30px;
+	color: white;
+
+}
+
+#date {
+	padding: 10px;
+	color: white;
+	opacity: 0.3;
+	font-size: 20px;
+}
+
