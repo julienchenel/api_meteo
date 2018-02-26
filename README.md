@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -553,3 +554,7 @@
   </body>
 </html>
 
+=======
+# api_meteo
+Objectifs: Manipuler les données d'une API avec des requêtes Ajax pour afficher des informations dynamiquement sur un site web. Maquetter une application mobile. Développer une solution numérique responsive et dynamique.
+>>>>>>> b997c3bb6f2fda585a17a71e3cf445113108788e
