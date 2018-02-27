@@ -1,0 +1,58 @@
+http://api.openweathermap.org/data/2.5/forecast?id=6426273&APPID=693847a822e4a79db242ae4969159f0e
+
+&units=metric
+&mode=xml
+&lang=fr
+
+Test
+&callback=test
+
+http://api.openweathermap.org/data/2.5/forecast?q=Pamiers,fr&APPID=693847a822e4a79db242ae4969159f0e&units=metric
+
+Wireframe Mobile Portrait : https://wireframe.cc/DbHr5M
+
+Scénario
+
+La ville de Pamiers souhaite pouvoir afficher sur les écrans de ses services la météo locale du jour. Elle souhaite aussi rendre disponible cela sur smartphone. Votre client a déjà créé une maquette desktop de son application, mais n’a pas créé la version mobile. En tant que développeur.se, Vous êtes en charge de cette étape de maquettage et de développer le site.
+
+Ressources fournies
+
+Maquette de la version desktop de l’application
+Couleur du fond : #00796B
+
+Police de votre choix (exemple : Roboto, Lato ou équivalent)
+Scénarios utilisateur
+
+
+Consignes
+
+Réaliser la maquette de la version mobile de l’application En utilisant une API OpenWeatherMap afficher la météo de Pamiers et les informations supplémentaires demandées en reproduisant la maquette fournie et celle créée par vos soins.
+
+Lorsque votre projet individuel répond à toutes les demandes listées par l’exercice aidez les autres à atteindre les objectifs.
+
+Scenarii utilisateur En tant qu’utilisateur je peux voir les informations suivante de façon dynamique :
+
+Le nom de ville (dans ce cas, Pamiers)
+La météo (température, vitesse du vent, taux d’humidité, la pression atmosphérique, les température min et max)
+La position GPS (longitude, latitude)
+La date d’aujourd’hui (utilisez moment.js)
+La position de la ville sur une carte (dans ce cas, Pamiers). En tant qu’utilisateur je peux afficher les mêmes informations précédemment citées pour n’importe quelle autre ville après avoir saisi son nom dans un champ texte. Les informations affichées sur la page changent dynamiquement en fonction. En tant qu’utilisateur je peux avoir accès au site depuis n’importe quel navigateur ou mobile et ce depuis n’importe où dans le monde.
+Contraintes
+Le site doit être responsive
+Utilisation de Html, CSS, jQuery
+Livrables de l’exercice :
+L1 : La maquette de la version mobile du site internet
+L2 : Le code source est rendu disponible
+L3 : Lien internet vers le projet (voir exercice "Héberger un projet en ligne et partager ses recherches")
+
+Critères d’évaluation
+
+Les interfaces sont conformes aux maquettes de l’application
+La charte graphique est respectée
+Le code source des composants est documenté
+Utiliser un système de gestion de version afin de permettre de suivre l’historique de développement (sur une période minimum de 10 modifications en arrières), création d’au moins deux branches.
+L’interface utilisateur et « responsivité » du site sont réalisées à partir d’une bibliothèque de composants graphiques (Framework css de votre choix)
+L’ergonomie respecte l’expérience utilisateur du matériel cible mis en oeuvre. Il n’est ainsi pas nécessaire de zoomer ou de-zoomer pour afficher les informations de façon lisible.
+Construction de la maquette de la version mobile de l’application, l’enchaînement et la compositions des écrans.
+Tous les projets individuels sont terminés avant de débuter l’exercice suivant.
+Les consignes, scenarri utilisateurs et contraintes sont couvertes par le projet
