@@ -19,36 +19,51 @@
           <input placeholder="Entrer une ville" id="champsVille" type="text" class="validate" value="Pamiers">
         </div>
      </div>
+
+<!-- Boutons "Valider"  -->
+
      <a class="waves-effect waves-light btn" id="valider">Valider</a>
 
 <!-- Conteneur affichant la date avec la méthode moment.js  -->
 
      <div id="date"></div>
      
-<!-- Conteneur affichant la date avec la méthode moment.js  -->
-     
     </form>
 </div>
 
 <div class="row">
+
+  <!-- Conteneur affichant la température actuelle -->
+
     <div class="grid-example col s12 m6" id="cadreTemp">
     </div>
+
+<!-- Conteneur affichant la date les autres données météo  -->
+
     <div class="grid-example col s12 m6" id="autresDonnees">
     </div>
+
 </div>
 
-      <div class="row">
-      	<div class="offset-m4  col m4 s12" id="coordonnees"></div>
-        <div id="carte" class="input-field offset-m4  col m4 s12">
-        </div>
-      </div>
+<div class="row">
+
+
+<!-- Conteneur affichant la date les coordonnées GPS  -->
+
+  <div class="offset-m4  col m4 s12" id="coordonnees"></div>
+
+
+<!-- Conteneur affichant la carte  -->
+
+  <div id="carte" class="input-field offset-m4  col m4 s12"></div>
+
+</div>
+
+<!-- Les scripts utils : Attention à bien les appeler dans l'ordre, idem que les fichiers CSS -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/moment-with-locales.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
 
 </body>
 </html>
-<!--     <iframe src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCEtp23WvQyRB5iknvT43jKLFb-u3HUmBk
-    &center=46.414382,10.013988&zoom=11&maptype=satellite"></iframe> -->
-<!-- 
-    <iframe src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCBdOfwbLBMGhe9K77dPqD0x849yNQim3E&center=43.11,1.61&zoom=11&maptype=satellite"></iframe> -->
