@@ -1,5 +1,9 @@
 http://api.openweathermap.org/data/2.5/forecast?id=6426273&APPID=693847a822e4a79db242ae4969159f0e
 
+http://api.openweathermap.org/data/2.5/weather?q=Pamiers,fr&APPID=693847a822e4a79db242ae4969159f0e&units=metric
+
+
+
 &units=metric
 &mode=xml
 &lang=fr
