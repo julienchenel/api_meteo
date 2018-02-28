@@ -2,13 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+
+
+/*Style général de la page web*/
+
 html {
     background-color: #00796B;
     font-family: 'Roboto', sans-serif;
 }
-
-
-
 
 
 /*Style du bouton valider*/
@@ -21,11 +22,10 @@ html {
 
 
 
-
 /*Positionnement du formulaire, bouton et date*/
 
 #positionForm {
-    margin: auto;
+    margin: auto 0;
     text-align: center;
 }
 
@@ -45,6 +45,9 @@ html {
     font-size: 20px;
 }
 
+
+/*Style du cadre contenant la température actuelle*/
+
 #cadreTemp {
     font-size: 100px;
     color: white;
@@ -54,20 +57,30 @@ html {
     text-align: center;
 }
 
+
+/*Style du cadre contenant les autres données météo et les coordonnées GPS*/
+
+#autresDonnees,
+#coordonnees {
+    font-size: 16px;
+    color: white;
+}
+
+
+
+
+/*Style du cadre contenant la température actuelle sur un support mobile*/
+
 @media screen and (min-width: 640px) {
     #cadreTemp {
         text-align: right;
     }
 }
 
+
+/*Style du cadre contenant les autres données météo et les coordonnées GPS sur support mobile*/
+
 @media screen and (max-width: 640px) {
 
-    #autresDonnees {
-        margin-left: 15%;
-    }
-}
 
-#autresDonnees {
-    font-size: 18px;
-    color: white;
 }
