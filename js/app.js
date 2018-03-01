@@ -15,7 +15,7 @@ function callApiMeteo(ville) {
 
     $.ajax({
 
-        url: 'http://api.openweathermap.org/data/2.5/weather?q=' + ville + "&units=metric" + "&APPID=693847a822e4a79db242ae4969159f0e",
+        url: 'https://api.openweathermap.org/data/2.5/weather?q=' + ville + "&units=metric" + "&APPID=693847a822e4a79db242ae4969159f0e",
         type: "GET",
         dataType: "jsonp",
         success: function(data) {
