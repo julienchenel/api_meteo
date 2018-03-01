@@ -1,6 +1,7 @@
 /*Importation de la police Roboto de Gooogle Font*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
 
 
 /*Style général de la page web*/
@@ -8,7 +9,9 @@
 html {
     background-color: #00796B;
     font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
+
 
 
 /*Style du bouton valider*/
@@ -17,7 +20,9 @@ html {
     border-radius: 20px;
     color: #00796B;
     background-color: white;
+    font-weight: 400;
 }
+
 
 
 
@@ -30,19 +35,21 @@ html {
 
 
 #champsVille {
-    font-size: 30px;
+    font-weight: 400;
+    font-size: 16px;
     color: white;
     margin: auto;
-    text-align: center;
+
 }
 
 
 #date {
-    padding: 15px;
+    padding: 20px;
     color: white;
-    opacity: 0.3;
+    opacity: 0.4;
     font-size: 20px;
 }
+
 
 
 /*Style du cadre contenant la température actuelle*/
@@ -52,9 +59,10 @@ html {
     color: white;
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 0;
+    margin-left: 0; 
     text-align: center;
 }
+
 
 
 /*Style du cadre contenant les autres données météo et les coordonnées GPS*/
@@ -63,8 +71,16 @@ html {
 #coordonnees {
     font-size: 16px;
     color: white;
+    font-weight: 400;
 }
 
+
+/*Hauteur de la carte*/
+
+#carte {
+
+    height: 300px;
+}
 
 
 
@@ -77,9 +93,3 @@ html {
 }
 
 
-/*Style du cadre contenant les autres données météo et les coordonnées GPS sur support mobile*/
-
-@media screen and (max-width: 640px) {
-
-
-}

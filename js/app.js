@@ -39,6 +39,15 @@ $(document).ready(function() {
 
     callApiMeteo(ville);
 
+    // Fonction pour affecter la touche "entrée" à la validation du formulaire
+
+    $( "#champsVille" ).keypress(function(event) {
+    if (event.which == 13) {
+    ville = $("#champsVille").val();
+    callApiMeteo(ville);
+    }
+    })
+
 
     //Lorsqu'on clique sur le bouton "Valider", la fonction callApiMeteo est à nouveau appelée
 
