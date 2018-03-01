@@ -1,43 +1,96 @@
+/*Importation de la police Roboto de Gooogle Font*/
 
-/*Importation de la police Roboto de Goiogle Font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/*Style général de la page web*/
 
 html {
-	background-color: #00796B;
-	font-family: 'Roboto', sans-serif;
-
+    background-color: #00796B;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
+
 
 
 /*Style du bouton valider*/
 
 .waves-effect {
-	border-radius: 20px;
-	color: #00796B;
-	background-color: white;
+    border-radius: 20px;
+    color: #00796B;
+    background-color: white;
+    font-weight: 400;
 }
+
+
+
 
 /*Positionnement du formulaire, bouton et date*/
+
 #positionForm {
-   position:absolute;
-   top:10%;
-   left:50%;
-   right: 50%;
-   height:100%;
-   width: 100%;
+    margin: auto 0;
+    text-align: center;
+}
+
+
+#champsVille {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin: auto;
 
 }
 
-#city {
-	font-size: 30px;
-	color: white;
-
-}
 
 #date {
-	color: white;
-	opacity: 0.3;
-	font-size: 20px;
+    padding: 20px;
+    color: white;
+    opacity: 0.4;
+    font-size: 20px;
 }
 
+
+
+/*Style du cadre contenant la température actuelle*/
+
+#cadreTemp {
+    font-size: 100px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0; 
+    text-align: center;
+}
+
+
+
+/*Style du cadre contenant les autres données météo et les coordonnées GPS*/
+
+#autresDonnees,
+#coordonnees {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+
+/*Hauteur de la carte*/
+
+#carte {
+
+    height: 300px;
+}
+
+
+
+/*Style du cadre contenant la température actuelle sur un support mobile*/
+
+@media screen and (min-width: 640px) {
+    #cadreTemp {
+        text-align: right;
+    }
+}
+
+
+>>>>>>> dev
